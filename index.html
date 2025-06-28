@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UPSC CSE Matata</title>
+  <style>
+    :root {
+      --bg-color: #121212;
+      --text-color: #f1f1f1;
+      --accent: #e74c3c;
+      --card-bg: #1e1e1e;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    header {
+      text-align: center;
+      padding: 2em 1em;
+      background: #1e1e1e;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 0.5em;
+      color: #ccc;
+    }
+
+    nav {
+      text-align: center;
+      margin-top: 1em;
+    }
+
+    nav a {
+      color: var(--text-color);
+      text-decoration: none;
+      margin: 0 1em;
+      font-weight: bold;
+      border-bottom: 2px solid transparent;
+    }
+
+    nav a:hover {
+      border-bottom: 2px solid var(--accent);
+    }
+
+    .section {
+      padding: 2em 1em;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .videos iframe {
+      width: 100%;
+      height: 200px;
+      border: none;
+      margin-bottom: 1.5em;
+      border-radius: 10px;
+    }
+
+    @media (min-width: 600px) {
+      .videos iframe {
+        height: 300px;
+      }
+    }
+
+    .notes ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .notes li {
+      background: var(--card-bg);
+      padding: 1em;
+      border-radius: 8px;
+      margin-bottom: 1em;
+    }
+
+    .notes a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .subscribe {
+      text-align: center;
+      margin-top: 2em;
+    }
+
+    .subscribe a {
+      display: inline-block;
+      padding: 0.75em 1.5em;
+      background: var(--accent);
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .subscribe a:hover {
+      background: #c0392b;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1em;
+      background: #1e1e1e;
+      color: #888;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>UPSC CSE Matata</h1>
+  <p>No worries, just PYQs & Concepts!</p>
+  <nav>
+    <a href="#videos">Videos</a>
+    <a href="#notes">Notes</a>
+  </nav>
+</header>
+
+<section class="section videos" id="videos">
+  <h2>Latest Videos</h2>
+
+  <iframe src="https://www.youtube.com/embed/HyxEtcfNnmw" title="Video 1"></iframe>
+  <iframe src="https://www.youtube.com/embed/bofnO6hvUxk" title="Video 2"></iframe>
+  <iframe src="https://www.youtube.com/embed/gZW464PUrZ8" title="Video 3"></iframe>
+  <iframe src="https://www.youtube.com/embed/r0WEV94z35A" title="Video 4"></iframe>
+</section>
+
+<section class="section notes" id="notes">
+  <h2>Notes</h2>
+  <ul>
+    <li><a href="#">Polity Important Concepts (PDF)</a></li>
+    <li><a href="#">Previous Year Questions - GS1 (PDF)</a></li>
+    <li><a href="#">Economic Survey Summary (PDF)</a></li>
+  </ul>
+</section>
+
+<div class="subscribe">
+  <a href="https://www.youtube.com/channel/UCmJU6XsW4ZTpnI93mdJECfQ" target="_blank">
+    📺 Subscribe on YouTube
+  </a>
+</div>
+
+<footer>
+  &copy; 2025 UPSC CSE Matata. All rights reserved.
+</footer>
+
+</body>
+</html>
